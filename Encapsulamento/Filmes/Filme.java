@@ -2,10 +2,10 @@
 public class Filme {
 	
 	private String TituloFilme;
-	private double DuracaoemMinutos, DuracaoemHoras;
+	private int DuracaoemMinutos, DuracaoemHoras;
 	
 	public Filme () {}
-	public Filme(String TituloFilme, double DuracaoemMinutos) {
+	public Filme(String TituloFilme, int DuracaoemMinutos) {
 		this.TituloFilme = TituloFilme;
 		this.DuracaoemMinutos = DuracaoemMinutos;
 		
@@ -23,21 +23,21 @@ public class Filme {
 	public double getDuracaoemMinutos() {
 		return this.DuracaoemMinutos;
 	}
-	public void setDuracaoemMinutos(double DuracaoemMinutos) {
+	public void setDuracaoemMinutos(int DuracaoemMinutos) {
 		this.DuracaoemMinutos = DuracaoemMinutos;
 	}
 	
 	public double getDuracaoemHoras() {
 		return this.DuracaoemHoras;
 	}
-	public void setDuracaoemHoras(double DuracaoemHoras) {
+	public void setDuracaoemHoras(int DuracaoemHoras) {
 		this.DuracaoemHoras = DuracaoemHoras;
 	}
 	
 	//Métodos
 	
-	public void exibirDuracaoEmHoras() {
-		this.DuracaoemHoras = (DuracaoemMinutos/60);
+	public String exibirDuracaoEmHoras() {
+		return (DuracaoemMinutos/60)+"h"+(DuracaoemMinutos%60)+"min";
 	}
 	
 }
