@@ -3,7 +3,6 @@ public class Funcionario {
 	private String cpf;
 	private double salario;
 	
-	
 	//GET'S
 	
 	public String getCpf() {
@@ -22,7 +21,7 @@ public class Funcionario {
 		if(moeda.equals("US")) {
 			return "US"+this.salario * 0.20;
 		} else {
-		return "R$"+salario;
+			return "R$"+salario;
 		}
 	}
 	
