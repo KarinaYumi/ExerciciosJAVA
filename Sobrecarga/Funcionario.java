@@ -66,7 +66,6 @@ public class Funcionario {
 		}
 	}
 	
-	
 	//Método
 	
 	public void imprimir() {
@@ -74,7 +73,6 @@ public class Funcionario {
 		System.out.println("\nNome: "+this.getNome()+"\n");
 		System.out.println("CPF: "+this.getCpf()+"\n");
 		System.out.println("Salário BR: "+this.getSalario("R$"));
-		System.out.println("\nSalário US: "+this.getSalario("US"));
-		
+		System.out.println("\nSalário US: "+this.getSalario("US"));	
 	}
 }
