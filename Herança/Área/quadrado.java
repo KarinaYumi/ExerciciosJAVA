@@ -1,6 +1,7 @@
 
 public class quadrado extends figura {
 	
+	@Override
 	public int calcularArea() {
 		return setArea((getAltura())*getLargura());
 	}
