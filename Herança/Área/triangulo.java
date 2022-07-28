@@ -13,6 +13,8 @@ public class triangulo extends figura {
 	}
 	
 	//MÉTODOS
+	
+	@Override
 	public int calcularArea() {
 		return setArea((this.getAltura()*this.getBase()/2));
 	}
