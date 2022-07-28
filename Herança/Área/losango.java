@@ -20,7 +20,7 @@ public class losango extends figura {
 	}
 	
 // MÉTODOS
-	
+	@Override
 	public int calcularArea() {
 		return setArea((this.getDiagonalMaior()*this.getDiagonalMenor()/2));
 	}
