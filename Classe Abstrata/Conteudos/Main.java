@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		conteudo catalogo[] = new conteudo[11];
+		conteudo catalogo[] = new conteudo[10];
 		
 		catalogo[0] = new Filme("Filme", "A culpa é das estrelas", 140);
 		catalogo[0].Descricao();
@@ -26,8 +26,6 @@ public class Main {
 		catalogo[8].Descricao();
 		catalogo[9] = new Serie("Série", "Flash", 53, 23, 5);
 		catalogo[9].Descricao();
-		catalogo[10] = new Filme("Filme", "Titanic", 250);
-		catalogo[10].Descricao();
 		
 	}
 
